@@ -1,0 +1,5 @@
+protein_mass = input("Масса белков в продукте (г): ")
+fat_mass = input("Масса жиров в продукте (г): ")
+carbohyd_mass = input("Масса углеводов в продукте (г): ")
+cal = (protein_mass * 4) + (fat_mass * 9) + (carbohyd_mass * 4)
+print(f"Общая калорийность: {cal} ккал")
